@@ -14,8 +14,8 @@ h1 {
 
 .neon{
   font-family: 'Anton', cursive;
-  font-size:15em;
   color: white;
+  width: 100vw;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -45,29 +45,15 @@ h1 {
 }
 
 h2 {
-  font-family: 'Chivo Mono', monospace; /* add Chivo Mono font family */
-  color: white; /* set text color to white */
-  text-align: center; /* center align text */
+  font-family: 'Chivo Mono', monospace; 
+  color: white;
+  text-align: center; 
   white-space: nowrap;
   overflow: hidden;
 }
 
-h2 span {
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 20s linear infinite;
 
 
-}
-
-.marquee {
-  color: white;
-  position: relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 200px;
-  overflow-x: hidden;
-}
 
 .track {
   position: absolute;
